@@ -1,18 +1,17 @@
 # text-adventure-game
 
-This is a text-adventure game for the terminal. Navigate a fog covered maze that reveals itself the more you explore.
+This is a text-adventure game for the terminal. Map generates as you reach the border, enemies follow you each turn with path-finding logic.
 
 # Most parts are not implemented yet
 
 ## Gameplay
-- Enter `N`, `E`, `S`, `W` to move
+- Enter `W`, `A`, `S`, `D` to move
 - Pick up items and fight enemies
 - Type `X` to quit
 
 ## Features
-- Player and enemy structs
-- Item pickups (weapons, hearts, goggles)
-- Fog covered map that reveals with upgrades and exploration
+- Chests with random drops.
+- Map generated using logic inspired by Conway's Game of Life. 
 - Basic game loop and input handling
 
 ## Setting Up
@@ -22,3 +21,4 @@ This is a text-adventure game for the terminal. Navigate a fog covered maze that
 
 
 See [TODO.md] for planned features etc.
+
